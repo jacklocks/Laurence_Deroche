@@ -4,6 +4,7 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
+    <section>
     <div class="flex bg-turquoise top-0  h-20 flex-wrap justify-around relative">
       {<Logo/>}
       <div className="justify-between">
@@ -15,6 +16,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
+    </section>
   );
 };
 

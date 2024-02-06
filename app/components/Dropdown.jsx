@@ -28,7 +28,7 @@ const Dropdown = () => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="grid grid-cols-1 text-xl text-white mt-1 divide-y divide-gray divide-slate-700">
+          <div className="grid grid-cols-1 text-xl text-white capitalize mt-1 divide-y divide-gray divide-slate-700">
             <a className="h-12 flex items-center justify-center" href="/">
               Reiki
             </a>
