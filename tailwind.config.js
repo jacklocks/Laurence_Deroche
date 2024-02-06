@@ -14,7 +14,8 @@ module.exports = {
       black: "#000000",
     },
     fontFamily: {
-      logo: "RougeScript"
+      logo: "RougeScript",
+      text: "Roboto-Serif"
     },
     
     extend: {

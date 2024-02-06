@@ -18,13 +18,13 @@ const Dropdown = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <button className="text-white  p-2 mt-0 h-20 w-36% outline-none flex rounded  transition-all hover:bg-green items-center">
+      <button className="text-white  p-2 mt-0 h-20 w-36% outline-none flex rounded  transition-all hover:bg-green items-center font-text uppercase">
         Prestations
       </button>
 
       {isDropdownOpen && (
         <div
-          className="absolute z-10 bg-black h-52 w-36 rounded"
+          className="absolute z-10 bg-black h-52 w-[10.7rem] rounded lowercase"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
