@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="w-screen py-2 px-5 lg:px-64 bg-turquoise flex">
         {/* {<Logo />} */}
-        <ul className="hidden md:flex  space-x-0  w-screen  justify-around">
+        <ul className="hidden md:flex  space-x-10  w-11/12  justify-around">
           <li className="flex rounded  transition-all hover:bg-green items-center cursor-pointer font-text text-2xl uppercase ">
             Accueil
           </li>
@@ -18,7 +18,7 @@ const Navbar = () => {
           <li className="flex rounded  transition-all hover:bg-green items-center  cursor-pointer font-text text-2xl uppercase ">
             Contact
           </li>
-          <li className=" flex items-center font-text text-xl text-black uppercase absolute ml-1 top-1 right-3">
+          <li className=" flex items-center font-text text-xl text-black uppercase absolute ml-1 top-3 right-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
