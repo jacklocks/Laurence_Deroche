@@ -7,7 +7,7 @@ const Navbar = () => {
     <section>
       <div className="w-screen py-2 px-5 lg:px-64 bg-turquoise flex justify-between">
         {/* {<Logo />} */}
-        <div className="hidden md:flex items-center space-x-20 ml-5">
+        <div className="hidden md:flex items-center space-x-20 ml-30">
           <div className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer font-text text-2xl uppercase ">
             Accueil
           </div>
