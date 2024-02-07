@@ -5,25 +5,25 @@ import Logo from "./Logo";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full py-2 px-5 lg:px-64 bg-turquoise flex justify-center">
+      <div className="w-screen py-2 px-5 lg:px-64 bg-turquoise flex">
         {/* {<Logo />} */}
-        <div className="hidden md:flex  space-x-20 ml-30">
-          <div className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer font-text text-2xl uppercase ">
+        <ul className="hidden md:flex  space-x-0  w-screen  justify-around">
+          <li className="flex rounded  transition-all hover:bg-green items-center cursor-pointer font-text text-2xl uppercase ">
             Accueil
-          </div>
-          <div>{<Dropdown />}</div>
-          <div className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer font-text text-2xl uppercase ">
+          </li>
+          <li>{<Dropdown />}</li>
+          <li className="flex rounded  transition-all hover:bg-green items-center  cursor-pointer font-text text-2xl uppercase ">
             Mon histoire
-          </div>
-          <div className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer font-text text-2xl uppercase ">
+          </li>
+          <li className="flex rounded  transition-all hover:bg-green items-center  cursor-pointer font-text text-2xl uppercase ">
             Contact
-          </div>
-          <div className=" flex  items-center p-2 mt-0 h-20 w-36% justify-center  font-text text-xl text-black uppercase ">
+          </li>
+          <li className=" flex items-center font-text text-xl text-black uppercase absolute ml-1 top-1 right-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="text-black"
-              className="w-5 h-5 mr-1 ml-20"
+              className="w-5 h-5 mr-1"
             >
               <path
                 fillRule="evenodd"
@@ -32,14 +32,15 @@ const Navbar = () => {
               />
             </svg>
             06 89 34 42 69
-          </div>
-        </div>
+          </li>
+        </ul>
+        <div></div>
         <button className="space-y-1 group md:hidden">
           <div className="w-6 h-1 bg-white"></div>
           <div className="w-6 h-1 bg-white"></div>
           <div className="w-6 h-1 bg-white"></div>
 
-          <div className="bg-turquoise w-screen pb-10 absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end z-10">
+          <div className="bg-turquoise w-screen pb-10  absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end z-10">
             <button className="px-10 py-8 relative ml-auto">
               <div className="w-6 h-1 rotate-45 absolute bg-white"></div>
               <div className="w-6 h-1 -rotate-45 absolute bg-white"></div>
