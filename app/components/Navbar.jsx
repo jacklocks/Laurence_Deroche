@@ -7,15 +7,15 @@ const Navbar = () => {
     <>
       <div className="w-screen py-2 px-5 lg:px-64 bg-turquoise flex">
         {/* {<Logo />} */}
-        <ul className="hidden md:flex  space-x-10  w-11/12  justify-around">
-          <li className="flex rounded  transition-all hover:bg-green items-center cursor-pointer font-text text-2xl uppercase ">
+        <ul className="hidden md:flex  space-x-10  w-10/12  justify-around">
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-text text-2xl uppercase ">
             Accueil
           </li>
           <li>{<Dropdown />}</li>
-          <li className="flex rounded  transition-all hover:bg-green items-center  cursor-pointer font-text text-2xl uppercase ">
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-text text-2xl uppercase ">
             Mon histoire
           </li>
-          <li className="flex rounded  transition-all hover:bg-green items-center  cursor-pointer font-text text-2xl uppercase ">
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-text text-2xl uppercase ">
             Contact
           </li>
           <li className=" flex items-center font-text text-xl text-black uppercase absolute ml-1 top-3 right-5">

@@ -15,7 +15,7 @@ const Dropdown = () => {
   return (
     <Menu>
       <MenuHandler>
-        <Button className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer font-text text-2xl uppercase font-normal shadow-none ">
+        <Button className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer text-white font-text text-2xl uppercase font-normal shadow-none ">
           {" "}
           Prestations
         </Button>
