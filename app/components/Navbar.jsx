@@ -4,10 +4,10 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <section>
-      <div className="w-screen py-2 px-5 lg:px-64 bg-turquoise flex justify-between">
+    <>
+      <div className="w-full py-2 px-5 lg:px-64 bg-turquoise flex justify-center">
         {/* {<Logo />} */}
-        <div className="hidden md:flex items-center space-x-20 ml-5">
+        <div className="hidden md:flex  space-x-20 ml-30">
           <div className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer font-text text-2xl uppercase ">
             Accueil
           </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="text-black"
-              className="w-5 h-5 mr-1"
+              className="w-5 h-5 mr-1 ml-20"
             >
               <path
                 fillRule="evenodd"
@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
         </button>
       </div>
-    </section>
+    </>
   );
 };
 
