@@ -2,8 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"):
-  root {
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+@font-face {
+  font-family: "Roboto-serif";
+  src: url("./fonts/RobotoSerif.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Parisienne-Regular";
+  src: url("./fonts/Parisienne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Handlee-Regular";
+  src: url("./fonts/Handlee-Regular.ttf");
+}
+
+root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -34,8 +61,13 @@ body {
     text-wrap: balance;
   }
 }
+.text-nav {
+  text-shadow: 2px 2px 2px rgb(64, 63, 63);
+}
 .img-header {
   background-image: url("./assets/Bridge.webp");
   width: auto;
 }
-
+.text-header {
+  text-shadow: 2px 2px 2px rgb(64, 63, 63);
+}

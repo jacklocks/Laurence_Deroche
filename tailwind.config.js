@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+
 const withMT = require("@material-tailwind/react/utils/withMT");
+
+const plugin = require("tailwindcss/plugin");
+
 module.exports = withMT({
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,8 +19,9 @@ module.exports = withMT({
       black: "#000000",
     },
     fontFamily: {
-      logo: "RougeScript",
+      navbar: "Roboto-Regular",
       text: "Roboto-Serif",
+      title: "Handlee-Regular"
     },
 
     extend: {
@@ -25,7 +30,23 @@ module.exports = withMT({
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      textShadow: {
+        sm: "0 1px 2px var(--tw-shadow-color)",
+        DEFAULT: "0 2px 4px var(--tw-shadow-color)",
+        lg: "0 8px 16px var(--tw-shadow-color)",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          "text-shadow": (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme("textShadow") }
+      );
+    }),
+  ],
 });

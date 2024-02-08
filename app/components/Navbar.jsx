@@ -1,22 +1,23 @@
 import React from "react";
 import Dropdown from "./Dropdown";
 import Logo from "./Logo";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <>
-      <div className="w-screen py-2 px-5 lg:px-64 bg-turquoise flex">
+      <div className="w-screen  px-5 lg:px-64  bg-turquoise flex">
         {/* {<Logo />} */}
-        <ul className="hidden md:flex  space-x-10  w-10/12  justify-around">
-          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-text text-2xl uppercase ">
-            Accueil
+        <ul className="hidden md:flex space-x-10  w-10/12  justify-around">
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-navbar  font-bold text-xl uppercase tracking-wider text-nav">
+            <Link href="/">Accueil</Link>
           </li>
           <li>{<Dropdown />}</li>
-          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-text text-2xl uppercase ">
-            Mon histoire
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-navbar font-bold text-xl uppercase tracking-wider text-nav">
+            <Link href="/histoire">Mon histoire</Link>
           </li>
-          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-text text-2xl uppercase ">
-            Contact
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-navbar font-bold text-xl uppercase tracking-wider text-nav">
+            <Link href="/contact">Contact</Link>
           </li>
           <li className=" flex items-center font-text text-xl text-black uppercase absolute ml-1 top-3 right-5">
             <svg
@@ -35,20 +36,22 @@ const Navbar = () => {
           </li>
         </ul>
         <div></div>
-        <button className="space-y-1 group md:hidden">
-          <div className="w-6 h-1 bg-white"></div>
-          <div className="w-6 h-1 bg-white"></div>
-          <div className="w-6 h-1 bg-white"></div>
+        <button className="space-y-1 group md:hidden py-2">
+          <span className="w-6 h-1 bg-white"></span>
+          <span className="w-6 h-1 bg-white"></span>
+          <span className="w-6 h-1 bg-white"></span>
 
           <div className="bg-turquoise w-screen pb-10  absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end z-10">
             <button className="px-10 py-8 relative ml-auto">
-              <div className="w-6 h-1 rotate-45 absolute bg-white"></div>
-              <div className="w-6 h-1 -rotate-45 absolute bg-white"></div>
+              <span className="w-6 h-1 rotate-45 absolute bg-white"></span>
+              <span className="w-6 h-1 -rotate-45 absolute bg-white"></span>
             </button>
-            <div className="flex justify-center w-full py-4">Accueil</div>
-            <div className="flex justify-center w-full py-4">Prestations</div>
-            <div className="flex justify-center w-full py-4">Mon histoire</div>
-            <div className="flex justify-center w-full py-4">Contact</div>
+            <span className="flex justify-center w-full py-4">Accueil</span>
+            <span className="flex justify-center w-full py-4">Prestations</span>
+            <span className="flex justify-center w-full py-4">
+              Mon histoire
+            </span>
+            <span className="flex justify-center w-full py-4">Contact</span>
           </div>
         </button>
       </div>

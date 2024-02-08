@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 import {
   Menu,
   MenuHandler,
@@ -15,7 +16,7 @@ const Dropdown = () => {
   return (
     <Menu>
       <MenuHandler>
-        <Button className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer text-white font-text text-2xl uppercase font-normal shadow-none ">
+        <Button className="flex rounded  transition-all hover:bg-green items-center p-2 mt-0 h-20 w-36% justify-center cursor-pointer text-white font-navbar font-bold text-xl uppercase shadow-none tracking-wider text-nav">
           {" "}
           Prestations
         </Button>
@@ -30,7 +31,7 @@ const Dropdown = () => {
         >
           <MenuHandler className="flex items-center justify-between">
             <MenuItem>
-              Soins énergétiques
+              <Link href="/soins">Soins énergétiques</Link>
               <ChevronUpIcon
                 strokeWidth={2.5}
                 className={`h-4 w-4 ml-1 transition-transform stroke-black ${
@@ -44,8 +45,12 @@ const Dropdown = () => {
             <MenuItem>LaHoChi</MenuItem>
           </MenuList>
         </Menu>
-        <MenuItem>Hypnose</MenuItem>
-        <MenuItem>Massage Twina</MenuItem>
+        <MenuItem>
+          <Link href="/hypnose">Hypnose</Link>
+        </MenuItem>
+        <MenuItem>
+          <Link href="/massage">Massage ventouses Tui Na</Link>
+        </MenuItem>
       </MenuList>
     </Menu>
   );
