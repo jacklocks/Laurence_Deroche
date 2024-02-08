@@ -43,7 +43,7 @@ const Contact = () => {
           neque veritatis. Laudantium, eos earum. Voluptas magni asperiores
           nobis veniam est autem natus voluptate at nostrum veritatis dicta amet
           sapiente obcaecati aliquid provident suscipit nam harum quo, quasi
-          laborum facilis perferendis possimus.
+          laborum facilis perferendis possimus!
         </p>
       </div>
       <form
