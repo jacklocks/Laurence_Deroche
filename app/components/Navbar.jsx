@@ -9,14 +9,14 @@ const Navbar = () => {
       <div className="w-screen  px-5 lg:px-64  bg-turquoise flex">
         {/* {<Logo />} */}
         <ul className="hidden md:flex space-x-10  w-10/12  justify-around">
-          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-navbar  font-bold text-xl uppercase tracking-wider text-nav">
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-title  font-bold text-xl uppercase tracking-wider text-nav">
             <Link href="/">Accueil</Link>
           </li>
           <li>{<Dropdown />}</li>
-          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-navbar font-bold text-xl uppercase tracking-wider text-nav">
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-title font-bold text-xl uppercase tracking-wider text-nav">
             <Link href="/histoire">Mon histoire</Link>
           </li>
-          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-navbar font-bold text-xl uppercase tracking-wider text-nav">
+          <li className="flex rounded  transition-all hover:bg-green items-center p-2 cursor-pointer font-title font-bold text-xl uppercase tracking-wider text-nav">
             <Link href="/contact">Contact</Link>
           </li>
           <li className=" flex items-center font-text text-xl text-black uppercase absolute ml-1 top-3 right-5">

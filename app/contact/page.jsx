@@ -1,13 +1,16 @@
-import Navbar from '../components/Navbar'
-import React from 'react'
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import React from "react";
 
 const page = () => {
   return (
     <>
-    <Navbar />
-    <h1 className='text-4xl text-center'>Contact</h1>
+      <Navbar />
+      <Contact />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

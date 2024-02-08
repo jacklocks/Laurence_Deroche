@@ -17,7 +17,7 @@ module.exports = withMT({
       black: "#000000",
     },
     fontFamily: {
-      navbar: "Roboto-Regular",
+      text2: "Roboto-Regular",
       text: "Roboto-Serif",
       title: "Handlee-Regular",
     },

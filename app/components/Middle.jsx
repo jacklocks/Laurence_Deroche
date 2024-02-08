@@ -2,8 +2,8 @@ import React from "react";
 
 const Middle = () => {
   return (
-    <section className="font-text p-20">
-      <h1 className="text-4xl mt-10 text-center font-title leading-relaxed">
+    <section className="font-text p-20 h-screen">
+      <h1 className="text-4xl mt-10 text-center font-text2 leading-relaxed text-header">
         Plongez dans un océan de bien-être où l'énergie revitalisante du Reiki
         et du Lahochi fusionne harmonieusement avec l'apaisement profond de
         l'hypnose et la libération des tensions du massage Tui Na. Réveillez
@@ -12,8 +12,8 @@ const Middle = () => {
       </h1>
       <div className=" flex place-content-around mt-20 flex-wrap gap-20">
         <div className="bg-turquoise w-[32rem] h-[32rem] rounded-full mb-10">
-          <h1 className="text-3xl text-center p-10">Soins énergétiques</h1>
-          <p className="p-10 text-lg">
+          <h1 className="text-3xl text-center font-title p-10">Soins énergétiques</h1>
+          <p className="p-10 text-lg font-text2">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem inventore atque consequatur asperiores rem magni
             dignissimos minus sit ex adipisci error, officiis nisi ipsam quo?
@@ -23,8 +23,8 @@ const Middle = () => {
           </p>
         </div>
         <div className="bg-turquoise w-[32rem] h-[32rem] rounded-full">
-          <h1 className="text-3xl text-center p-10">Hypnose</h1>
-          <p className="p-10 text-lg">
+          <h1 className="text-3xl text-center font-title p-10">Hypnose</h1>
+          <p className="p-10 text-lg font-text2">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem inventore atque consequatur asperiores rem magni
             dignissimos minus sit ex adipisci error, officiis nisi ipsam quo?
@@ -34,8 +34,8 @@ const Middle = () => {
           </p>
         </div>
         <div className="bg-turquoise w-[32rem] h-[32rem] rounded-full">
-          <h1 className="text-3xl text-center p-10">Massage Twina</h1>
-          <p className="p-10 text-lg">
+          <h1 className="text-3xl text-center font-title p-10">Massage Twina</h1>
+          <p className="p-10 text-lg font-text2">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem inventore atque consequatur asperiores rem magni
             dignissimos minus sit ex adipisci error, officiis nisi ipsam quo?
