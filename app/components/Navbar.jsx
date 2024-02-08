@@ -37,21 +37,21 @@ const Navbar = () => {
         </ul>
         <div></div>
         <button className="space-y-1 group md:hidden py-2">
-          <span className="w-6 h-1 bg-white"></span>
-          <span className="w-6 h-1 bg-white"></span>
-          <span className="w-6 h-1 bg-white"></span>
+          <div className="w-6 h-1 bg-white"></div>
+          <div className="w-6 h-1 bg-white"></div>
+          <div className="w-6 h-1 bg-white"></div>
 
           <div className="bg-turquoise w-screen pb-10  absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end z-10">
             <button className="px-10 py-8 relative ml-auto">
-              <span className="w-6 h-1 rotate-45 absolute bg-white"></span>
-              <span className="w-6 h-1 -rotate-45 absolute bg-white"></span>
+              <div className="w-6 h-1 rotate-45 absolute bg-white"></div>
+              <div className="w-6 h-1 -rotate-45 absolute bg-white"></div>
             </button>
-            <span className="flex justify-center w-full py-4">Accueil</span>
-            <span className="flex justify-center w-full py-4">Prestations</span>
-            <span className="flex justify-center w-full py-4">
+            <div className="flex justify-center w-full py-4">Accueil</div>
+            <div className="flex justify-center w-full py-4">Prestations</div>
+            <div className="flex justify-center w-full py-4">
               Mon histoire
-            </span>
-            <span className="flex justify-center w-full py-4">Contact</span>
+            </div>
+            <div className="flex justify-center w-full py-4">Contact</div>
           </div>
         </button>
       </div>

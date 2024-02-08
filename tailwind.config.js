@@ -2,8 +2,6 @@
 
 const withMT = require("@material-tailwind/react/utils/withMT");
 
-const plugin = require("tailwindcss/plugin");
-
 module.exports = withMT({
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -21,7 +19,7 @@ module.exports = withMT({
     fontFamily: {
       navbar: "Roboto-Regular",
       text: "Roboto-Serif",
-      title: "Handlee-Regular"
+      title: "Handlee-Regular",
     },
 
     extend: {
@@ -37,16 +35,5 @@ module.exports = withMT({
       },
     },
   },
-  plugins: [
-    plugin(function ({ matchUtilities, theme }) {
-      matchUtilities(
-        {
-          "text-shadow": (value) => ({
-            textShadow: value,
-          }),
-        },
-        { values: theme("textShadow") }
-      );
-    }),
-  ],
+  plugins: [],
 });
