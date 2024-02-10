@@ -7,7 +7,7 @@ const Logo = () => {
     <>
       <Image
         src={logo}
-        className="size-56 flex  absolute left-0  top-0 z-10 rounded-full mt-10 ml-20"
+        className="h-1/3 w-1/3 m-0"
       />
     </>
   );

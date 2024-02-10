@@ -10,16 +10,17 @@ module.exports = withMT({
   ],
   theme: {
     colors: {
-      turquoise: "#60abae",
-      blue: "#9fccce",
-      green: "#b7d251",
-      gray: "#aaaaaa",
-      black: "#000000",
+      teal: "#007B83",
+      blue: "#C6D8D7",
+      green: "#64B298",
+      pink: "#DEDAD8",
+      black: "#161A24",
+      red: "#B2002E",
     },
     fontFamily: {
-      text2: "Roboto-Regular",
-      text: "Roboto-Serif",
-      title: "Handlee-Regular",
+      text: "Roboto-Regular",
+      title: "Oswald-Regular",
+      man: "Parisienne-Regular",
     },
 
     extend: {
