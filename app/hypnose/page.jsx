@@ -5,7 +5,7 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="text-4xl text-center">Hypnose</div>
+      <div className="text-4xl text-center text-black font-title">Hypnose</div>
     </>
   );
 };

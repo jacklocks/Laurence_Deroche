@@ -35,8 +35,8 @@ const Contact = () => {
   return (
     <div className="text-center mb-20">
       <div className="flex flex-col justify-center items-center">
-        <h2 className="mt-10 mb-10 text-5xl capitalize font-title">contact</h2>
-        <p className="w-9/12 text-2xl mb-10 font-text2">
+        <h2 className="mt-10 mb-10 text-5xl capitalize font-title text-black">contact</h2>
+        <p className="w-9/12 text-2xl mb-10 font-text text-black">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ex
           dolorum quibusdam possimus perspiciatis non et sed soluta dicta
           accusantium delectus labore dolor voluptatem adipisci ab, velit saepe
@@ -47,14 +47,14 @@ const Contact = () => {
         </p>
       </div>
       <form
-        className="flex flex-col items-center justify-center space-y-4"
+        className="flex flex-col items-center justify-center space-y-4 text-black capitalize"
         ref={form}
         onSubmit={sendEmail}
       >
         <div className="flex flex-col gap-3">
           <label htmlFor="name">nom</label>
           <input
-            className="text-black h-9 w-96 outline-none p-5"
+            className="text-black h-9 w-96 outline-none p-5 border-2 border-teal rounded"
             type="text"
             id="name"
             name="name"
@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
         <label htmlFor="email">email</label>
         <input
-          className="text-black h-9 w-96 outline-none p-5"
+          className="text-black h-9 w-96 outline-none p-5 border-2 border-teal rounded"
           type="email"
           id="email"
           name="email"
@@ -71,12 +71,12 @@ const Contact = () => {
         />
         <label htmlFor="message">message</label>
         <textarea
-          className="text-black h-32 w-96 outline-none p-5"
+          className="text-black h-32 w-96 outline-none p-5 border-2 border-teal rounded"
           id="message"
           name="message"
           required
         ></textarea>
-        <button className="bg-green w-24 h-9 rounded uppercase transition hover:scale-110 " type="submit" value="Send">
+        <button className="bg-red p-3 rounded uppercase hover:scale-110 transition w-36 text-white font-text" type="submit" value="Send">
           envoyer
         </button>
         <div>

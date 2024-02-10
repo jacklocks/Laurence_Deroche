@@ -23,7 +23,7 @@ const Middle = () => {
             rem pariatur assumenda nihil laudantium cum mollitia, minus nemo ea.
             Distinctio minus iusto excepturi!
           </p>
-          <button className="bg-red p-3 rounded uppercase hover:scale-110 transition w-36">Je découvre</button>
+          <button className="bg-red p-3 rounded uppercase hover:scale-110 transition w-36 font-text">Je découvre</button>
         </div>
         <div className="bg-teal w-[32rem] h-[32rem] flex flex-col items-center rounded-full">
           <h1 className="text-3xl text-center font-title p-10">Hypnose</h1>
@@ -35,11 +35,11 @@ const Middle = () => {
             rem pariatur assumenda nihil laudantium cum mollitia, minus nemo ea.
             Distinctio minus iusto excepturi!
           </p>
-          <button className="bg-red p-3 rounded uppercase hover:scale-110 transition w-36">Je découvre</button>
+          <button className="bg-red p-3 rounded uppercase hover:scale-110 transition w-36 font-text">Je découvre</button>
         </div>
         <div className="bg-teal w-[32rem] h-[32rem] flex flex-col items-center rounded-full">
           <h1 className="text-3xl text-center font-title p-10">
-            Massage Twina
+            Massage Tui Na
           </h1>
           <p className="p-10 text-lg font-text2">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -49,7 +49,7 @@ const Middle = () => {
             rem pariatur assumenda nihil laudantium cum mollitia, minus nemo ea.
             Distinctio minus iusto excepturi!
           </p>
-          <button className="bg-red p-3 rounded uppercase hover:scale-110 transition w-36">Je découvre</button>
+          <button className="bg-red p-3 rounded uppercase hover:scale-110 transition w-36 font-text">Je découvre</button>
         </div>
       </div>
     </>

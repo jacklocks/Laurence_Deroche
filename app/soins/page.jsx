@@ -5,7 +5,7 @@ const page = () => {
   return (
     <>
     <Navbar />
-    <div className='text-4xl text-center'>Soins énergétiques</div>
+    <div className='text-4xl text-center text-black font-title'>Soins énergétiques</div>
     </>
   )
 }
