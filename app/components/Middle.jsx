@@ -3,13 +3,15 @@ import React from "react";
 const Middle = () => {
   return (
     <>
-      <h1 className="text-2xl lg:text-4xl mt-10 text-center font-text text-black leading-relaxed text-header">
+    <div className="flex justify-center">
+      <h1 className="text-2xl lg:text-4xl mt-10 text-center font-text w-9/12 text-black leading-relaxed text-header">
         Plongez dans un océan de bien-être où l'énergie revitalisante du Reiki
         et du Lahochi fusionne harmonieusement avec l'apaisement profond de
         l'hypnose et la libération des tensions du massage Tui Na. Réveillez
         votre vitalité intérieure, libérez votre esprit et ressentez une
         transformation profonde à chaque séance.
       </h1>
+      </div>
       <div className=" flex place-content-around mt-20 flex-wrap gap-20">
         <div className="bg-teal w-[24rem] h-[24rem] sm:w-[32rem] sm:h-[32rem] flex flex-col items-center rounded-full mb-10">
           <h1 className="text-2xl sm:text-3xl text-center font-title p-5 sm:p-10">
