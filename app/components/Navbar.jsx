@@ -44,7 +44,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div></div>
-        <button className="space-y-1 group lg:hidden py-2">
+        <button type="button" className="space-y-1 group lg:hidden py-2">
           <div className="w-6 h-1 bg-black"></div>
           <div className="w-6 h-1 bg-black"></div>
           <div className="w-6 h-1 bg-black"></div>
