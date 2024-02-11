@@ -36,7 +36,7 @@ const Contact = () => {
     <div className="text-center mb-20">
       <div className="flex flex-col justify-center items-center">
         <h2 className="mt-10 mb-10 text-5xl capitalize font-title text-black">contact</h2>
-        <p className="w-9/12 text-2xl mb-10 font-text text-black">
+        <p className="w-9/12 mb-10 font-text text-2xl lg:text-4xl mt-10 text-center text-black leading-relaxed">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ex
           dolorum quibusdam possimus perspiciatis non et sed soluta dicta
           accusantium delectus labore dolor voluptatem adipisci ab, velit saepe
