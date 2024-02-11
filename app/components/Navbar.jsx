@@ -35,7 +35,7 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-          <li className="flex items-center font-title text-xl text-black uppercase absolute ml-1 top-3 right-5">
+          <li className="flex items-center font-title text-xl text-black uppercase absolute ml-1 top-3 right-7">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -62,22 +62,22 @@ const Navbar = () => {
         {isOpen && (
           <div className="lg:hidden bg-teal w-full absolute top-24 left-0 z-10">
             <ul className="flex flex-col items-center space-y-4 py-4">
-              <li className="text-white font-bold">
+              <li className="text-white font-title tracking-widest uppercase font-bold py-2">
                 <Link href="/">Accueil</Link>
               </li>
-              <li className="text-white font-bold">
+              <li className="text-white font-title tracking-widest uppercase font-bold py-2">
                 <Link href="/soins">Soins énergétiques</Link>
               </li>
-              <li className="text-white font-bold">
+              <li className="text-white font-title tracking-widest uppercase font-bold py-2">
                 <Link href="/hypnose">Hypnose</Link>
               </li>
-              <li className="text-white font-bold">
+              <li className="text-white font-title tracking-widest uppercase font-bold py-2">
                 <Link href="/massage">Massage ventouses Tui Na</Link>
               </li>
-              <li className="text-white font-bold">
+              <li className="text-white font-title tracking-widest uppercase font-bold py-2">
                 <Link href="/histoire">Mon histoire</Link>
               </li>
-              <li className="text-white font-bold">
+              <li className="text-white font-title tracking-widest uppercase font-bold py-2">
                 <Link href="/contact">Contact</Link>
               </li>
             </ul>
