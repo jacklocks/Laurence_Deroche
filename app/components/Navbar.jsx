@@ -50,7 +50,7 @@ const Navbar = () => {
           <div className="w-6 h-1 bg-black"></div>
 
           <div className="bg-teal w-screen absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col  justify-end">
-            <button className="px-10 py-8 relative ml-auto">
+            <button type="button" className="px-10 py-8 relative ml-auto">
               <div className="w-6 h-1 rotate-45 absolute bg-black"></div>
               <div className="w-6 h-1 -rotate-45 absolute bg-black"></div>
             </button>
