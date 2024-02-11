@@ -1,24 +1,31 @@
-'use client'
+"use client";
 import React from "react";
 import Dropdown from "./Dropdown";
 import Link from "next/link";
 
 const Navbar = () => {
-  
   return (
     <>
       <div className="w-screen h-24 px-5 lg:px-64 flex border-b border-blue-50 bg-teal ">
-
         <ul className="hidden lg:flex space-x-10 w-screen lg:w-10/12 justify-around  text-white">
           <li className="flex rounded transition-all p-2 h-20 items-center cursor-pointer font-title font-bold text-xl uppercase tracking-widest text-nav  hover:scale-110">
-            <Link className="h-20 flex flex-col justify-center" href="/">Accueil</Link>
+            <Link className="h-20 flex flex-col justify-center" href="/">
+              Accueil
+            </Link>
           </li>
           <li>{<Dropdown />}</li>
           <li className="flex rounded  transition-all  p-2 h-20 items-center cursor-pointer font-title font-bold text-xl uppercase tracking-widest text-nav  hover:scale-110">
-            <Link className="h-20 flex flex-col justify-center" href="/histoire">Mon histoire</Link>
+            <Link
+              className="h-20 flex flex-col justify-center"
+              href="/histoire"
+            >
+              Mon histoire
+            </Link>
           </li>
           <li className="flex rounded  transition-all  p-2 h-20 items-center cursor-pointer font-title font-bold text-xl uppercase tracking-widest text-nav  hover:scale-110">
-            <Link className="h-20 flex flex-col justify-center" href="/contact">Contact</Link>
+            <Link className="h-20 flex flex-col justify-center" href="/contact">
+              Contact
+            </Link>
           </li>
           <li className=" flex items-center  font-title text-xl text-black uppercase absolute ml-1 top-3 right-5">
             <svg
@@ -42,34 +49,46 @@ const Navbar = () => {
           <div className="w-6 h-1 bg-black"></div>
           <div className="w-6 h-1 bg-black"></div>
 
-          <div className="bg-teal w-screen pb-10  absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col  justify-end z-10">
+          <div className="bg-teal w-screen absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col  justify-end">
             <button className="px-10 py-8 relative ml-auto">
               <div className="w-6 h-1 rotate-45 absolute bg-black"></div>
               <div className="w-6 h-1 -rotate-45 absolute bg-black"></div>
             </button>
-            <div className="flex justify-center w-full py-2
-            ">
-            <Link href="/">Accueil</Link>
+            <div
+              className="flex justify-center w-full py-1.5
+            "
+            >
+              <Link href="/">Accueil</Link>
             </div>
-            <div className="flex justify-center w-full py-2
-            ">
-            <Link href="/soins">Soins énergétiques</Link>
+            <div
+              className="flex justify-center w-full py-1.5
+            "
+            >
+              <Link href="/soins">Soins énergétiques</Link>
             </div>
-            <div className="flex justify-center w-full py-2
-            ">
-            <Link href="/hypnose">Hypnose</Link>
+            <div
+              className="flex justify-center w-full py-1.5
+            "
+            >
+              <Link href="/hypnose">Hypnose</Link>
             </div>
-            <div className="flex justify-center w-full py-2
-            ">
-            <Link href="/massage">Massage ventouses Tui Na</Link>
+            <div
+              className="flex justify-center w-full py-1.5
+            "
+            >
+              <Link href="/massage">Massage ventouses Tui Na</Link>
             </div>
-            <div className="flex justify-center w-full py-2
-            ">
-            <Link href="/histoire">Mon histoire</Link>
+            <div
+              className="flex justify-center w-full py-1.5
+            "
+            >
+              <Link href="/histoire">Mon histoire</Link>
             </div>
-            <div className="flex justify-center w-full py-2
-            ">
-            <Link href="/contact">Contact</Link>
+            <div
+              className="flex justify-center w-full py-1.5
+            "
+            >
+              <Link href="/contact">Contact</Link>
             </div>
           </div>
         </button>
