@@ -42,27 +42,33 @@ const Navbar = () => {
           <div className="w-6 h-1 bg-black"></div>
           <div className="w-6 h-1 bg-black"></div>
 
-          <div className="bg-teal w-screen pb-10  absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col space-y-3 justify-end z-10">
+          <div className="bg-teal w-screen pb-10  absolute -top-full group-focus:top-0 right-0 duration-150 flex flex-col  justify-end z-10">
             <button className="px-10 py-8 relative ml-auto">
               <div className="w-6 h-1 rotate-45 absolute bg-black"></div>
               <div className="w-6 h-1 -rotate-45 absolute bg-black"></div>
             </button>
-            <div className="flex justify-center w-full py-4">
+            <div className="flex justify-center w-full py-2
+            ">
             <Link href="/">Accueil</Link>
             </div>
-            <div className="flex justify-center w-full py-4">
+            <div className="flex justify-center w-full py-2
+            ">
             <Link href="/soins">Soins énergétiques</Link>
             </div>
-            <div className="flex justify-center w-full py-4">
+            <div className="flex justify-center w-full py-2
+            ">
             <Link href="/hypnose">Hypnose</Link>
             </div>
-            <div className="flex justify-center w-full py-4">
+            <div className="flex justify-center w-full py-2
+            ">
             <Link href="/massage">Massage ventouses Tui Na</Link>
             </div>
-            <div className="flex justify-center w-full py-4">
+            <div className="flex justify-center w-full py-2
+            ">
             <Link href="/histoire">Mon histoire</Link>
             </div>
-            <div className="flex justify-center w-full py-4">
+            <div className="flex justify-center w-full py-2
+            ">
             <Link href="/contact">Contact</Link>
             </div>
           </div>
