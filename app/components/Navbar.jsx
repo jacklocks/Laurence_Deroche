@@ -1,8 +1,10 @@
+'use client'
 import React from "react";
 import Dropdown from "./Dropdown";
 import Link from "next/link";
 
 const Navbar = () => {
+  
   return (
     <>
       <div className="w-screen h-24 px-5 lg:px-64 flex border-b border-blue-50 bg-teal ">
@@ -45,12 +47,24 @@ const Navbar = () => {
               <div className="w-6 h-1 rotate-45 absolute bg-black"></div>
               <div className="w-6 h-1 -rotate-45 absolute bg-black"></div>
             </button>
-            <div className="flex justify-center w-full py-4">Accueil</div>
-            <div className="flex justify-center w-full py-4">Prestations</div>
             <div className="flex justify-center w-full py-4">
-              Mon histoire
+            <Link href="/">Accueil</Link>
             </div>
-            <div className="flex justify-center w-full py-4">Contact</div>
+            <div className="flex justify-center w-full py-4">
+            <Link href="/soins">Soins énergétiques</Link>
+            </div>
+            <div className="flex justify-center w-full py-4">
+            <Link href="/hypnose">Hypnose</Link>
+            </div>
+            <div className="flex justify-center w-full py-4">
+            <Link href="/massage">Massage ventouses Tui Na</Link>
+            </div>
+            <div className="flex justify-center w-full py-4">
+            <Link href="/histoire">Mon histoire</Link>
+            </div>
+            <div className="flex justify-center w-full py-4">
+            <Link href="/contact">Contact</Link>
+            </div>
           </div>
         </button>
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 const Middle = () => {
   return (
     <>
-      <h1 className="text-2xl lg:text-4xl mt-10 text-center font-title text-black leading-relaxed text-header">
+      <h1 className="text-2xl lg:text-4xl mt-10 text-center font-text text-black leading-relaxed text-header">
         Plongez dans un océan de bien-être où l'énergie revitalisante du Reiki
         et du Lahochi fusionne harmonieusement avec l'apaisement profond de
         l'hypnose et la libération des tensions du massage Tui Na. Réveillez
@@ -15,7 +15,7 @@ const Middle = () => {
           <h1 className="text-2xl sm:text-3xl text-center font-title p-5 sm:p-10">
             Soins énergétiques
           </h1>
-          <p className="p-10 text-sm sm:text-lg font-text2">
+          <p className="p-10 text-sm sm:text-lg font-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem inventore atque consequatur asperiores rem magni
             dignissimos minus sit ex adipisci error, officiis nisi ipsam quo?
@@ -27,7 +27,7 @@ const Middle = () => {
         </div>
         <div className="bg-teal w-[24rem] h-[24rem] sm:w-[32rem] sm:h-[32rem] flex flex-col items-center rounded-full">
           <h1 className="text-2xl sm:text-3xl text-center font-title p-5 sm:p-10">Hypnose</h1>
-          <p className="p-10 text-sm sm:text-lg font-text2">
+          <p className="p-10 text-sm sm:text-lg font-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem inventore atque consequatur asperiores rem magni
             dignissimos minus sit ex adipisci error, officiis nisi ipsam quo?
@@ -41,7 +41,7 @@ const Middle = () => {
           <h1 className="text-2xl sm:text-3xl text-center font-title p-5 sm:p-10">
             Massage Tui Na
           </h1>
-          <p className="p-10 text-sm sm:text-lg font-text2">
+          <p className="p-10 text-sm sm:text-lg font-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem inventore atque consequatur asperiores rem magni
             dignissimos minus sit ex adipisci error, officiis nisi ipsam quo?

@@ -54,7 +54,7 @@ const Contact = () => {
         <div className="flex flex-col gap-3">
           <label htmlFor="name">nom</label>
           <input
-            className="text-black h-9 w-96 outline-none p-5 border-2 border-teal rounded"
+            className="text-black h-9 w-66 sm:w-96 outline-none p-5 border-2 border-teal rounded"
             type="text"
             id="name"
             name="name"
@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
         <label htmlFor="email">email</label>
         <input
-          className="text-black h-9 w-96 outline-none p-5 border-2 border-teal rounded"
+          className="text-black h-9 w-66 sm:w-96 outline-none p-5 border-2 border-teal rounded"
           type="email"
           id="email"
           name="email"
@@ -71,7 +71,7 @@ const Contact = () => {
         />
         <label htmlFor="message">message</label>
         <textarea
-          className="text-black h-32 w-96 outline-none p-5 border-2 border-teal rounded"
+          className="text-black h-32 w-72 sm:w-96 outline-none p-5 border-2 border-teal rounded"
           id="message"
           name="message"
           required
@@ -81,12 +81,13 @@ const Contact = () => {
         </button>
         <div>
           <input
+          className="h-4 w-4 mr-2  accent-teal"
             type="checkbox"
             onChange={handleChange}
             id="rgpd"
             name="RGPD"
           />
-          <label htmlFor="rgpd">
+          <label className="h-5" htmlFor="rgpd">
             J'ai lu et accepte la{" "}
             <Link href="/RGPD">politique de confidentialité</Link>
           </label>
