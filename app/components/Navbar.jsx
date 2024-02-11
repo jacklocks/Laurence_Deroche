@@ -1,14 +1,13 @@
 import React from "react";
 import Dropdown from "./Dropdown";
-import Logo from "./Logo";
 import Link from "next/link";
 
 const Navbar = () => {
   return (
     <>
       <div className="w-screen h-24 px-5 lg:px-64 flex border-b border-blue-50 bg-teal ">
-        {/* {<Logo />} */}
-        <ul className="hidden md:flex space-x-10  w-10/12  justify-around text-white">
+
+        <ul className="hidden lg:flex space-x-10 w-screen lg:w-10/12 justify-around  text-white">
           <li className="flex rounded transition-all p-2 h-20 items-center cursor-pointer font-title font-bold text-xl uppercase tracking-widest text-nav  hover:scale-110">
             <Link className="h-20 flex flex-col justify-center" href="/">Accueil</Link>
           </li>
@@ -19,7 +18,7 @@ const Navbar = () => {
           <li className="flex rounded  transition-all  p-2 h-20 items-center cursor-pointer font-title font-bold text-xl uppercase tracking-widest text-nav  hover:scale-110">
             <Link className="h-20 flex flex-col justify-center" href="/contact">Contact</Link>
           </li>
-          <li className=" flex items-center font-title text-xl text-black uppercase absolute ml-1 top-3 right-5">
+          <li className=" flex items-center  font-title text-xl text-black uppercase absolute ml-1 top-3 right-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -36,7 +35,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div></div>
-        <button className="space-y-1 group md:hidden py-2">
+        <button className="space-y-1 group lg:hidden py-2">
           <div className="w-6 h-1 bg-black"></div>
           <div className="w-6 h-1 bg-black"></div>
           <div className="w-6 h-1 bg-black"></div>

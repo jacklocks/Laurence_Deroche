@@ -7,7 +7,7 @@ const Logo = () => {
     <>
       <Image
         src={logo}
-        className="h-1/3 w-1/3 m-0"
+        className="h-2/3 lg:h-1/3 w-2/3 lg:w-1/3"
       />
     </>
   );
