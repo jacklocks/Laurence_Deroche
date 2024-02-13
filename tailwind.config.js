@@ -18,9 +18,10 @@ module.exports = withMT({
       red: "#B2002E",
     },
     fontFamily: {
-      text: "Roboto-Regular",
-      title: "Oswald-Regular",
-      man: "Parisienne-Regular",
+      text: ["Montserrat-Regular", "sans-serif"],
+      // title: ["Oswald-Regular", "sans-serif"],
+      man: ["Parisienne-Regular", "sans-serif"],
+      titlenav: ["ProtestRiot-Regular", "sans-serif"],
     },
 
     extend: {

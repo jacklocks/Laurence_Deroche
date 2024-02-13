@@ -33,10 +33,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="text-center mb-20">
+    <div className="text-center mb-20 mt-32">
       <div className="flex flex-col justify-center items-center">
-        <h2 className="mt-10 mb-10 text-5xl capitalize font-title text-black">contact</h2>
-        <p className="w-9/12 mb-10 font-text text-2xl lg:text-4xl mt-10 text-center text-black leading-relaxed">
+        <h2 className="mt-10 mb-10 text-5xl capitalize font-text text-black">contact</h2>
+        <p className="w-9/12 mb-10 font-text text-2xl lg:text-3xl mt-10 text-center text-black leading-relaxed">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ex
           dolorum quibusdam possimus perspiciatis non et sed soluta dicta
           accusantium delectus labore dolor voluptatem adipisci ab, velit saepe
@@ -47,14 +47,14 @@ const Contact = () => {
         </p>
       </div>
       <form
-        className="flex flex-col items-center justify-center space-y-4 text-black capitalize"
+        className="flex flex-col items-center justify-center space-y-4 text-black font-text capitalize"
         ref={form}
         onSubmit={sendEmail}
       >
         <div className="flex flex-col gap-3">
           <label htmlFor="name">nom</label>
           <input
-            className="text-black h-9 w-66 sm:w-96 outline-none p-5 border-2 border-teal rounded"
+            className="text-black font-text h-9 w-66 sm:w-96 outline-none p-5 border-2 border-teal rounded"
             type="text"
             id="name"
             name="name"
@@ -87,9 +87,9 @@ const Contact = () => {
             id="rgpd"
             name="RGPD"
           />
-          <label className="h-5" htmlFor="rgpd">
+          <label className="h-5 font-text" htmlFor="rgpd">
             J'ai lu et accepte la{" "}
-            <Link href="/RGPD">politique de confidentialité</Link>
+            <Link className="cursor-pointer underline" href="/RGPD">politique de confidentialité</Link>
           </label>
         </div>
       </form>
