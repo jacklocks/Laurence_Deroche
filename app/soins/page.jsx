@@ -1,13 +1,13 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
 
 const page = () => {
   return (
     <>
-    <Navbar />
-    <div className='text-4xl text-center text-black font-title'>Soins énergétiques</div>
+      <div className="text-4xl text-center text-black font-title">
+        Soins énergétiques
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import imageSoins from "../assets/Soins-énergétiques.png";
 import imageHypnose from "../assets/Hypnose.webp";
@@ -27,7 +26,7 @@ const Middle = () => {
           </div>
           <ul className="text-[0.6rem] sm:text-base font-text -translate-y-12 sm:-translate-y-28 list-disc mx-10 sm:mx-16">
             <li>Remet en mouvement, inspire à aller de l’avant</li>
-            <li>Accès aux ressources naturelles pour le plein potentiel.</li>
+            <li>Accès aux ressources naturelles pour le plein potentiel</li>
             <li>Libération des blocages et détente totale</li>
             <li>Atténuation de la douleur physique et émotionnelle</li>
             <li>Bienfaits : énergie vitale, système immunitaire, gestion du stress, sommeil, auto-guérison</li>
